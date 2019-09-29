@@ -5,7 +5,7 @@ therefore is not in the main tree.
 
 ## Installation
 
-First install the `database/sql` sqlite3 driver https://github.com/mattn/go-sqlite3  
+First install the `database/sql` sqlite3 driver https://github.com/mattn/go-sqlite3
 This requires cgo and the sqlite3 .so/.dll installed. Refer to the installation
 of the `github.com/mattn/go-sqlite3` to complete this step.
 
@@ -15,7 +15,7 @@ driver name `sqlite3`.
 
 ```bash
 # Install sqlboiler sqlite3 driver
-go get -u github.com/volatiletech/sqlboiler-sqlite3
+go get -u github.com/thrasher-corp/sqlboiler-sqlite3
 # Generate models
 sqlboiler sqlite3
 ```

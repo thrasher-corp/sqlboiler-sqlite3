@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/volatiletech/sqlboiler-sqlite3/driver"
+	"github.com/thrasher-corp/sqlboiler-sqlite3/driver"
 	"github.com/volatiletech/sqlboiler/drivers"
 )
 
