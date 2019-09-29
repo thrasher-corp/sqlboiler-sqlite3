@@ -481,6 +481,7 @@ func (SQLiteDriver) Imports() (col importers.Collection, err error) {
 				`"github.com/pkg/errors"`,
 				`"github.com/spf13/viper"`,
 				`_ "github.com/mattn/go-sqlite3"`,
+				`"github.com/thrasher-corp/goose"`,
 			},
 		},
 	}

@@ -69,5 +69,11 @@ func (s *sqliteTester) conn() (*sql.DB, error) {
         return nil, err
 	}
 
+	path := filepath.Join("..", "..", "migrations")
+	err = goose.Run("up", s.dbConn, "sqlite3", path, "")
+	if err != nil {
+		return nil, err
+	}
+
 	return s.dbConn, nil
 }
