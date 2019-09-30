@@ -9,3 +9,5 @@ require (
 	github.com/volatiletech/inflect v0.0.0-20170731032912-e7201282ae8d // indirect
 	github.com/volatiletech/sqlboiler v3.5.0+incompatible
 )
+
+replace github.com/volatiletech/sqlboiler => github.com/thrasher-corp/sqlboiler v3.5.0+incompatible

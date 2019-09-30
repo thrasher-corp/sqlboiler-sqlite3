@@ -7,6 +7,8 @@ github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZN
 github.com/spf13/cast v1.3.0 h1:oget//CVOEoFewqQxwr0Ej5yjygnqGkvggSE/gB35Q8=
 github.com/spf13/cast v1.3.0/go.mod h1:Qx5cxh0v+4UWYiBimWS+eyWzqEqokIECu5etghLkUJE=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
+github.com/thrasher-corp/sqlboiler v3.5.0+incompatible h1:UvTpboUOoooqq5JrnXQlqU/dfxFsr4XPUw/7bIhcS5I=
+github.com/thrasher-corp/sqlboiler v3.5.0+incompatible/go.mod h1:RJHaECmAzux3dfPnS/0PhKlHUYP0CNtCvUXh77mIZkU=
 github.com/volatiletech/inflect v0.0.0-20170731032912-e7201282ae8d h1:gI4/tqP6lCY5k6Sg+4k9qSoBXmPwG+xXgMpK7jivD4M=
 github.com/volatiletech/inflect v0.0.0-20170731032912-e7201282ae8d/go.mod h1:jspfvgf53t5NLUT4o9L1IX0kIBNKamGq1tWc/MgWK9Q=
 github.com/volatiletech/sqlboiler v3.5.0+incompatible h1:n160O7UQLpZVRnJY6VH5eRNkt7sQdQBZGCCZ3CUy1+g=
