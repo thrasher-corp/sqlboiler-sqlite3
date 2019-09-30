@@ -470,14 +470,12 @@ func (SQLiteDriver) Imports() (col importers.Collection, err error) {
 			Standard: importers.List{
 				`"database/sql"`,
 				`"fmt"`,
-				`"io"`,
 				`"math/rand"`,
 				`"os"`,
 				`"path/filepath"`,
 				`"regexp"`,
 			},
 			ThirdParty: importers.List{
-				`"github.com/pkg/errors"`,
 				`_ "github.com/mattn/go-sqlite3"`,
 				`"github.com/thrasher-corp/goose"`,
 			},
